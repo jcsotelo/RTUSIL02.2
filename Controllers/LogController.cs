@@ -15,7 +15,7 @@ namespace TestApi.Controllers
     {
 
         private readonly IConfiguration _configuration;
-
+        
         public LogController(IConfiguration configuration)
         {
             _configuration = configuration;
