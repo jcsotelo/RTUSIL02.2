@@ -1,36 +1,16 @@
-# challenge_microservice_template
+# Reto_02 
 
-initial starter with c# + myql
-
-# one click run
+# Test Unit
 
 ```
-docke-compose down
-docke-compose up
-```
-
-# endpoints
-
-**create user**
+Se creo un proyecto con plantilla Xunit
 
 ```
-curl --location --request POST 'http://localhost:5000/v1/user' \
---header 'Content-Type: application/json' \
---data-raw '{
-    "UserName":"Barney",
-    "Hobbies":"Reichert",
-    "Location":"gu"
-}'
-```
-
-**list users**
+# Reporte Code Coverage
 
 ```
-curl --location --request GET 'http://localhost:5000/v1/user/' \
---header 'Content-Type: application/json' \
---data-raw '{
-    "UserName":"Jonatan",
-    "Hobbies":"Krajcik",
-    "Location":"ast"
-}'
+  Se instaló el free framework Fine Code Coverage al VS2019 desde Nuget ó Extensiones
+  
+  Se activa al culminar el test de parte de Xunit
 ```
+
